@@ -1,4 +1,4 @@
-.parent{
+.parent {
     display: flex;
 }
 
@@ -18,7 +18,7 @@
 }
 .red {
     width: 150px;
-    height: 0px;
+    height: 200px;
     background-color: red;
     align-items: center;
     border: 1px solid;
