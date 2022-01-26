@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+h1{
+    color: rebeccapurple;
+    margin: 1.5em auto;
+}
+
+img {
+    width: 150px;
+}
+
+.records {
+    display: flex;
+    background-color: burlywood;
+    padding: 1.5em;
+    min-height: 200px;
+    /* x-axis is controlled by justify_content*/
+    justify-content: space-around;
+    /* flex-end moves to end*/
+    /* space-evenly*/
+    /* y-axis controlled my align-items*/
+    align-items: flex-end;
+}
+
+#nav {
+    list-style: none;
+    display: flex;
+    background-color: chocolate;
+    padding: 1.5em;
+    gap: 1.5em;
+    /*Gap does not work in safari*/
+    /*Gap put a space between home, about, and contact*/
+    /*Margin-right 1.5em will do the same*/
+}

@@ -34,7 +34,7 @@ console.log("liftoff!")
 var countPositives = 0;
 var numbers = [3,4,-2,7,16,-8,0];
 
-for (var i=0; i < numbers.length-1; i++) {
+for (var i=0; i < numbers.length; i++) {
     if (numbers[i] > 0) countPositives++;
 }
     
@@ -43,4 +43,4 @@ for (var i=0; i < numbers.length-1; i++) {
 
 // Concatenation - adding strings together
 
-console.log("there are " + countPositives + "positive values");
+console.log("there are " + countPositives + " positive values");
