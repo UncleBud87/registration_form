@@ -16,5 +16,6 @@
 }
 
 .col-2 {
+    width: 400px;
     flex: 2;
 }

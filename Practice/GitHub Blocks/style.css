@@ -4,11 +4,19 @@
     box-sizing: border-box;
 }
 
+img {
+    width: 150px;
+    margin: 10px;}
+
 .container {
     background-color: firebrick;
     width: 650px;
     padding: 20px;
     margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
 }
 
 .classes {
@@ -17,14 +25,6 @@
     justify-content: flex-start;
 }
 
-h1 {
-    text-align: center;
-}
-
-img {
-    width: 150px;
-    margin: 10px;
-}
 
 .top {
     background-color: dimgray;
