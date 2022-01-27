@@ -1,5 +1,5 @@
 .container {
-    width: 1200px;
+    width: 1920px;
     height: 600px;
     margin: 0 auto;
     background-color: silver;
@@ -10,7 +10,6 @@
 .col, .col-2 {
     background-color: blanchedalmond;
     padding: 10px;
-    font-size: 10px;
     font-size: 1.2rem;
     flex: 1;
 }
