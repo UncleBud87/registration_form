@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+margin: 20px auto;
+width: 75%;
+}
+
+.cardbody {
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    background-color: blanchedalmond;
+    margin: 1.5rem;
+
+}
+.top {
+    background-color: dodgerblue;
+    width: 600px;
+    height: 100px;
+}
+
+.circle {
+    position: relative;
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    background-color: gainsboro;
+    margin-left: 60px;
+    top: 30px;
+}
+
+.content {
+    width: 600px;
+    height: 300px;
+    margin-left: 20px;
+    margin-top: 40px;
+    display: flexbox;
+}
+
+.userface {
+    margin: 5px;
+    width: 130px;
+    height: 130px;
+}
+
+.pindrop {
+    width: 20px;
+}
+
+.profilegear {
+    width: 20px;
+}
+
+.gear {
+    margin-top: 60px;
+}
