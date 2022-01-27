@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 
-html {
-    background-color: darkgrey;
-    width: 75%;
+
+ul {
+    align-items: center;
 }
 
 .nav {
@@ -15,11 +15,11 @@ html {
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     height: 50px;
-    background-color: darkgrey;
-    display: flex;
+    background-color: black;
     align-items: center;
+    display: flex;
     padding: 1.5em;
-    width: 100%;
+    width: 75%;
     justify-content: space-between;
 }
 

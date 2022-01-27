@@ -12,34 +12,32 @@ width: 75%;
 
 .cardbody {
     position: absolute;
+    border: 2px solid black;
     width: 600px;
-    height: 400px;
     background-color: blanchedalmond;
     margin: 1.5rem;
 
 }
 .top {
+    position: relative;
     background-color: dodgerblue;
     width: 600px;
     height: 100px;
 }
 
 .circle {
-    position: relative;
+    position: absolute;
     border-radius: 50%;
     width: 140px;
     height: 140px;
     background-color: gainsboro;
     margin-left: 60px;
-    top: 30px;
 }
 
 .content {
     width: 600px;
     height: 300px;
     margin-left: 20px;
-    margin-top: 40px;
-    display: flexbox;
 }
 
 .userface {
