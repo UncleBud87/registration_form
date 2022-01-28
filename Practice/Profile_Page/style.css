@@ -6,12 +6,16 @@
     box-sizing: border-box;
     font-family: Roboto
 }
+
+h4 {
+    display: inline-block
+}
+
 header {
     width: 80%;
     margin: 1.5rem;
     align-items: center;
 }
-
 
 .nav {
     border-style: solid;
@@ -72,9 +76,15 @@ header {
 }
 
 
-.idcard, .education, .connectionrequest, .yourconnections {
+.idcard, .education {
     min-height: 50px;
     min-width: 20%;
+}
+
+.connectionrequest, .yourconnections {
+    min-height: 50px;
+    min-width: 20%;
+    margin: 1.5rem;
 }
 
 .cardbody {
