@@ -11,18 +11,16 @@
 
 <body>
     <header>
-        <div class="flexbar">
-            <div class="nav">
-                <ul class="nav-links">
-                    <li>
-                        <h1 class="nav-title">Profile</h1>
-                    </li>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#" class="active">My Profile</a></li>
-                    <li><a href="#">Find Connections</a></li>
-                </ul>
-                <div class="signout"><button class="btn">Sign Out</button></div>
-            </div>
+        <div class="nav">
+            <ul class="nav-links">
+                <li>
+                    <h1>Profile</h1>
+                </li>
+                <li><a class="navbuttons" href="#">Home</a></li>
+                <li><a class="navbuttons" href="#" class="active">My Profile</a></li>
+                <li><a class="navbuttons" href="#">Find Connections</a></li>
+            </ul>
+            <button class="signout">Sign Out</button>
         </div>
     </header>
     <div class="body">
@@ -35,57 +33,75 @@
                     <div class="content">
                         <h1>Jane Doe</h1>
                         <h2><img src="./images/map-marker.png" alt="map marker" class="pindrop"> seattle</h2>
-                        <h3>Developer/Engineer/Problem Solver</h3>
-                        <h3>Master of shadows and the Internet!</h3>
+                        <h3 class="joblist">Developer/Engineer/Problem Solver</h3>
+                        <h3 class="joblist">Master of shadows and the Internet!</h3>
                         <h3 class=gear><img src="./images/gear.png" alt="gear" class="profilegear"> <a
                                 href="./index.html">edit profile</a></h3>
                     </div>
                 </div>
             </div>
-            <div class="education">
-                <div class="educationheader">
-                    <h2>Education</h2>
-                </div>
-                <div class="educationbody">
-                    <h1>coding dojo -full stack bootcamp
-                        <h2>dec 2019 - mar 2020</h2>
-                        <h3>triple black belt in python, MERN, and C#...</h3>
-                    </h1>
-                </div>
+            <div class="educationheader">
+                <h2>Education</h2>
+            </div>
+            <div class="educationbody">
+                <h1>coding dojo -full stack bootcamp
+                    <h2>dec 2019 - mar 2020</h2>
+                    <h3>triple black belt in python, MERN, and C#...</h3>
+                </h1>
             </div>
         </div>
         <div class="container2">
             <div class="connectionrequest">
                 <div class="requestbar">
-                    <button class="button1">2</button>
+                    <button class="requestAmt">2</button>
                     <h4>Connection Requests</h4>
                 </div>
                 <div class="requestselect">
                     <ul class=people>
                         <li>
-                            <h2><img src="./images/adrien-s.jpg" alt="adrien-s"> Adrien S <div class="yes-no"></div><img
-                                    src="./icons/accept-circle.png" alt="accept"><img src="./icons/close-circle.png"
-                                    alt="decline"></h2>
+                            <h3 class="nameYesNo">
+                                <img src="./images/adrien-s.jpg" alt="adrien-s"> Adrien S
+                                <img src="./icons/accept-circle.png" alt="accept">
+                                <img src="./icons/close-circle.png" alt="decline">
+                            </h3>
                         </li>
                         <li>
-                            <h2><img src="./images/alayne-s.jpg" alt="alayne-s"> Alayne S <div class="yes-no"></div><img
-                                    src="./icons/accept-circle.png" alt="accept"><img src="./icons/close-circle.png"
-                                    alt="decline"></h2>
+                            <h3 class="nameYesNo">
+                                <img src="./images/alayne-s.jpg" alt="alayne-s"> Alayne S
+                                <img src="./icons/accept-circle.png" alt="accept">
+                                <img src="./icons/close-circle.png" alt="decline">
+                            </h3>
                         </li>
                     </ul>
                 </div>
             </div>
             <div class="yourconnections">
                 <div class="yourconnectionsheader">
-                    <button class="button1">2</button>
-                    <h4>Connection Requests</h4>
+                    <button class="connectionAmt">500+</button>
+                    <h4>Your Connections</h4>
                 </div>
                 <div class="yourcontacts">
                     <ul class=people>
-                        <li><img src="./images/anne-s.jpg" alt="anne-s"> Anne S </li>
-                        <li><img src="./images/arry-s.jpg" alt="arry-s"> Arry S </li>
-                        <li><img src="./images/jane-m.jpg" alt="jane-m"> Jane M </li>
-                        <li><img src="./images/phil-s.jpg" alt="phil-s"> Phil S </li>
+                        <li>
+                            <h3 class="connectionNames">
+                                <img src="./images/anne-s.jpg" alt="anne-s"> Anne S
+                            </h3>
+                        </li>
+                        <li>
+                            <h3 class="connectionNames">
+                                <img src="./images/arry-s.jpg" alt="arry-s"> Arry S
+                            </h3>
+                        </li>
+                        <li>
+                            <h3 class="connectionNames">
+                                <img src="./images/jane-m.jpg" alt="jane-m"> Jane M
+                            </h3>
+                        </li>
+                        <li>
+                            <h3 class="connectionNames">
+                                <img src="./images/phil-s.jpg" alt="phil-s"> Phil S
+                            </h3>
+                        </li>
                     </ul>
                 </div>
             </div>
