@@ -7,20 +7,19 @@
     background-color: rgb(47, 46, 46);
 }
 
-header {
-    height: 60px;
+.header {
+    min-width: 100%;
+    align-items: center;
 }
 
 .nav {
     color: whitesmoke;
-    height: 50px;
+    background-color: darkcyan;
     align-items: center;
     display: flex;
+    justify-content: space-between;
     padding: 1.5rem;
     width: 100%;
-    justify-content: space-between;
-    background-color: darkcyan;
-    margin: 1.5rem;
 }
 .dojonary {
     background-color: transparent;
@@ -43,8 +42,7 @@ header {
 }
 
 body{
-    width: 80%;
-    margin: 1.5rem;
+    min-width: 100%;
     display: inline-flexbox;
 }
 
