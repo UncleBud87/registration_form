@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,34 +8,80 @@
     <title>Profile Page</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <div class="flexbar">
             <div class="nav">
                 <ul class="nav-links">
-                    <li><h1 class="nav-title">Profile</h1></li>
+                    <li>
+                        <h1 class="nav-title">Profile</h1>
+                    </li>
                     <li><a href="#">Home</a></li>
                     <li><a href="#" class="active">My Profile</a></li>
                     <li><a href="#">Find Connections</a></li>
                 </ul>
                 <div class="signout"><button class="btn">Sign Out</button></div>
-        </div>
+            </div>
         </div>
     </header>
-    <body>
-    <div class="container1">
-        <div class="idcard">
-<p>an id card goes here</p>
+    <div class="body">
+        <div class="container1">
+            <div class="idcard">
+                <div class="cardbody">
+                    <div class="top">
+                        <img src="./images/user-circle.png" alt="user circle" class="userface">
+                    </div>
+                    <div class="content">
+                        <h1>Jane Doe</h1>
+                        <h2><img src="./images/map-marker.png" alt="map marker" class="pindrop"> seattle</h2>
+                        <h3>Developer/Engineer/Problem Solver</h3>
+                        <h3>Master of shadows and the Internet!</h3>
+                        <h3 class=gear><img src="./images/gear.png" alt="gear" class="profilegear"> <a
+                                href="./index.html">edit profile</a></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="education">
+                <div class="educationheader">
+                    <h2>Education</h2>
+                </div>
+                <div class="educationbody">
+                    <h1>coding dojo -full stack bootcamp
+                        <h2>dec 2019 - mar 2020</h2>
+                        <h3>triple black belt in python, MERN, and C#...</h3>
+                    </h1>
+                </div>
+            </div>
         </div>
-        <div class="education">
-<p>education content goes here</p>
+        <div class="container2">
+            <div class="connectionrequest">
+                <div class="requestbar">
+                    <button class="button1">2</button><h4>Connection Requests</h4>
+                </div>
+                <div class="requestselect">
+                    <ul class = people>
+                        <li><img src="./images/adrien-s.jpg" alt="adrien-s"> Adrien S </li>
+                        <li><img src="./images/alayne-s.jpg" alt="alayne-s"> Alayne S </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="yourconnections">
+                <div class="yourconnectionsheader">
+                    your connections goes here
+                </div>
+                <div class="yourcontacts">
+                    <ul class = people>
+                        <li><img src="./images/anne-s.jpg" alt="anne-s"> Anne S </li>
+                        <li><img src="./images/arry-s.jpg" alt="arry-s"> Arry S </li>
+                        <li><img src="./images/jane-m.jpg" alt="jane-m"> Jane M </li>
+                        <li><img src="./images/phil-s.jpg" alt="phil-s"> Phil S </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="container2">
-        <div class="connectionrequest"></div>
-        <div class="yourconnections"></div>
-    </div>
+
 </body>
-    
-</body>
+
 </html>

@@ -1,34 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Roboto
 }
 header {
     width: 80%;
-}
-
-ul {
+    margin: 1.5rem;
     align-items: center;
 }
+
 
 .nav {
     border-style: solid;
     border-color: white;
     color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     height: 50px;
     background-color: black;
     align-items: center;
     display: flex;
     padding: 1.5em;
-    width: 80%;
+    width: 100%;
     justify-content: space-between;
 }
 
 .nav-links {
+    align-items: center;
     color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     list-style: none;
     display: flex;
     padding: 1.5em;
@@ -47,20 +47,138 @@ ul {
     font-size: 16px;
 }
 
+.body {
+    width: 80%;
+    margin: 1.5rem;
+    align-items: center;
+    display: flex;
+    /* background-color: greenyellow; */
+
+}
+
 .container1 {
-    width: 40%;
+    flex: 2;
     margin: 1.5rem;
     min-height: 200px;
-    background-color: tomato;
+    /* background-color: tomato; */
+    
 }
 
 .container2 {
-    width: 40%;
+    flex: 1;
     margin: 1.5rem;
-    min-height: 200px;
-    background-color: yellowgreen;
+    min-height: 100px;
+    /* background-color: cadetblue; */
 }
 
-body {
-    flex-direction: column;
+
+.idcard, .education, .connectionrequest, .yourconnections {
+    min-height: 50px;
+    width: 100%;
+}
+
+.cardbody {
+    margin: 0 1.5rem;
+    border: 2px solid gray;
+    /* background-color: blanchedalmond; */
+}
+
+
+.requestbar, .yourconnectionsheader {
+    border: 2px solid gray;
+    min-width: 20%;
+    color: whitesmoke;
+    background-color: steelblue;
+    min-height: 50px;
+}
+.requestselect, .yourcontacts {
+    border: 2px solid gray;
+    min-height: 50px;
+    min-width: 20%;
+    background-color: whitesmoke;
+    list-style: none;
+}
+
+
+.educationheader {
+    color: whitesmoke;
+    border: 2px solid gray;
+    margin: 0 1.5rem;
+    padding: 1.5rem;
+    background-color: black;
+}
+
+.educationbody {
+    border: 2px solid gray;
+    margin: 0 1.5rem;
+    background-color: whitesmoke;
+}
+
+    .top {
+        background-color: dodgerblue;
+        height: 75px;
+        min-width: 50%;
+        flex: 2;
+        margin-bottom: 25px;
+    }
+    
+    .circle {
+        position: absolute;
+        border-radius: 50%;
+        width: 140px;
+        height: 140px;
+        background-color: gainsboro;
+        margin-left: 60px;
+    }
+    
+    .content {
+        min-width: 40%;
+        flex: 2;
+        margin-left: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .userface {
+        margin-top: 30px;
+        margin-left: 40px;
+        width: 80px;
+    }
+    
+    .pindrop {
+        width: 20px;
+    }
+    
+    .profilegear {
+        width: 20px;
+    }
+    
+    .gear {
+        margin-top: 60px;
+    }
+
+    h3 {
+        margin-top: 1em;
+    }
+
+    .button1 {
+        background-color: rgba(rgb(47, 46, 46), green, blue, alpha);
+        color: black;
+        border: none;
+        padding: 15px 15px;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 16px;
+        text-decoration: none;
+    }
+
+li img{
+
+    height: 40px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.people {
+    align-items: center;
+    list-style: none;
 }

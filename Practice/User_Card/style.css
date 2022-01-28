@@ -13,16 +13,15 @@ width: 75%;
 .cardbody {
     position: absolute;
     border: 2px solid black;
-    width: 600px;
+    min-width: 40%;
     background-color: blanchedalmond;
     margin: 1.5rem;
 
 }
 .top {
-    position: relative;
     background-color: dodgerblue;
-    width: 600px;
-    height: 100px;
+    height: 75px;
+    margin-bottom: 25px;
 }
 
 .circle {
@@ -35,15 +34,15 @@ width: 75%;
 }
 
 .content {
-    width: 600px;
-    height: 300px;
+    min-width: 40%;
     margin-left: 20px;
+    padding-bottom: 20px;
 }
 
 .userface {
-    margin: 5px;
-    width: 130px;
-    height: 130px;
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 80px;
 }
 
 .pindrop {
@@ -56,4 +55,7 @@ width: 75%;
 
 .gear {
     margin-top: 60px;
+}
+h3 {
+    margin-top: 1em;
 }
