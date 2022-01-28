@@ -4,7 +4,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Roboto
+    font-family: Roboto;
+}
+
+html {
+    background-color: whitesmoke;
 }
 
 h4 {
@@ -84,6 +88,7 @@ header {
 }
 
 .content {
+    color: rgb(47, 46, 46);
     min-width: 40%;
     flex: 2;
     margin-left: 20px;
@@ -121,6 +126,7 @@ header {
 }
 
 .educationbody {
+    color: rgb(47, 46, 46);
     border: 2px solid gray;
     margin: 0 1.5rem;
 }
@@ -170,6 +176,7 @@ li img{
 }
 
 .people {
+    color: rgb(47, 46, 46);
     align-items: center;
     list-style: none;
 }
