@@ -32,16 +32,16 @@ header {
     justify-content: space-between;
 }
 
-.nav-links {
-    align-items: center;
-    list-style: none;
-    display: flex;
-    padding: 1.5em;
-    gap: 1.5em;
-}
-
 .navbuttons {
     color: whitesmoke;
+}
+
+.nav-links {
+    list-style: none;
+    align-items: center;
+    display: flex;
+    margin: 1.5rem;
+    gap: 1.5em;
 }
 
 .signout {
