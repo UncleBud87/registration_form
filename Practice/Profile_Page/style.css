@@ -15,7 +15,6 @@ h4 {
     display: inline-block
 }
 
-
 header {
     width: 80%;
     margin: 1.5rem;
@@ -76,7 +75,7 @@ header {
 
 .cardbody {
     margin: 0 1.5rem;
-    border: 2px solid gray;
+    border: 2px solid rgb(47, 46, 46);
 }
 
 .top {
@@ -87,6 +86,12 @@ header {
     margin-bottom: 25px;
 }
 
+.userface {
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 80px;
+}
+
 .content {
     color: rgb(47, 46, 46);
     min-width: 40%;
@@ -95,31 +100,25 @@ header {
     padding-bottom: 20px;
 }
 
-.userface {
-    margin-top: 30px;
-    margin-left: 40px;
-    width: 80px;
-}
-
 .pindrop {
-    width: 20px;
+    height: 20px;
 }
 
 .joblist {
     margin-top: 1em;
 }
 
-.profilegear {
-    width: 20px;
-}
-
 .gear {
     margin-top: 30px;
 }
 
+.profilegear {
+    width: 20px;
+}
+
 .educationheader {
     color: whitesmoke;
-    border: 2px solid gray;
+    border: 2px solid rgb(47, 46, 46);
     margin: 0 1.5rem;
     padding: 1.5rem;
     background-color: rgb(47, 46, 46);
@@ -127,7 +126,7 @@ header {
 
 .educationbody {
     color: rgb(47, 46, 46);
-    border: 2px solid gray;
+    border: 2px solid rgb(47, 46, 46);
     margin: 0 1.5rem;
 }
 
@@ -144,20 +143,41 @@ header {
 }
 
 .requestbar, .yourconnectionsheader {
-    border: 2px solid gray;
+    border: 2px solid rgb(47, 46, 46);
     min-width: 20%;
     color: whitesmoke;
     background-color: rgb(47, 46, 46);
     min-height: 50px;
 }
+
+.nameYesNo, .connectionNames {
+    font-size: x-large;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.profilePics{
+    height: 40px;
+    border-radius: 50%;
+    margin: 5px;
+    margin-right: 1.5rem;
+}
+
 .requestselect, .yourcontacts {
-    border: 2px solid gray;
+    border: 2px solid rgb(47, 46, 46);
     min-height: 50px;
     min-width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.profileNames{
+    margin-right: 1.5rem;
 }
 
 .requestAmt, .connectionAmt {
-    background-color: rgb(47, 46, 46);
+    background-color: gray;
     color: rgb(47, 46, 46);
     border: none;
     border-radius: 50%;
@@ -168,19 +188,13 @@ header {
     margin: 5px;
 }
 
-li img{
-
-    height: 40px;
-    border-radius: 50%;
-    margin: 5px;
+.viewmore {
+    color: darkcyan;
+    font-size: x-large;
+    padding: 1.5rem;
+    background-color: rgb(47, 46, 46);
 }
 
-.people {
-    color: rgb(47, 46, 46);
-    align-items: center;
-    list-style: none;
-}
-
-.connectionNames {
-    vertical-align: middle;
+.viewMoreButton {
+    color: darkcyan;
 }
