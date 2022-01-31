@@ -1,2 +1,6 @@
-function displayName()
+function remove(element) {
+    element.remove();
+    }
+
+
 

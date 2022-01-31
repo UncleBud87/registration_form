@@ -77,7 +77,7 @@ body{
 .container2 {
     flex: 1;
     margin: 1rem;
-    min-height: 150px;
+    min-height: 50px;
     width: 30%;
 }
 a {
@@ -103,6 +103,7 @@ p {
 .dojonary2 {
     border: 2px solid darkcyan;
     color: whitesmoke;
+    min-height: 150px;
     margin: 1.5rem;
     padding: 1.5rem;
     text-align: center;

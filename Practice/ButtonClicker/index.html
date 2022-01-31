@@ -18,7 +18,7 @@
         <div class="nav">
             <h1 class="dojonary">Dojonary</h1>
             <input type="search" class="search">
-            <button class="login">Login</button>
+            <button class="login" onclick="changeName('Logout')">Login</button>
         </div>
     </header>
     <div class="home">
@@ -34,7 +34,7 @@
                     <h3>
                         Plural:ninjas
                     </h3>
-                    <button class="likes" onclick="alert('hello')">
+                    <button class="likes" onclick="alert('Ninja was liked')">
                         likes
                     </button>
                 </div>
@@ -55,7 +55,7 @@
                     <h3>
                         Plural:ninjas
                     </h3>
-                    <button class="likes">
+                    <button class="likes" onclick="alert('Ninja was liked')">
                         likes
                     </button>
                 </div>
@@ -71,12 +71,13 @@
                 <h2 class="dojonary">
                     Dojonary is defined by You
                 </h2>
-                <button class="addDefinition">
+                <button class="addDefinition" onclick="remove(this)">
                     Add definition
                 </button>
             </div>
         </div>
     </div>
+    <script src="javascript.js"></script>
 </body>
 
 </html>
