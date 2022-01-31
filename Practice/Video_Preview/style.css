@@ -50,6 +50,11 @@ body {
     background-color: #fff;
 }
 
+.video {
+    width: 720px;
+    flex: 2;
+}
+
 .col-l {
     flex: 2;
 }
