@@ -1,2 +1,2 @@
-function displayName
+function displayName()
 
