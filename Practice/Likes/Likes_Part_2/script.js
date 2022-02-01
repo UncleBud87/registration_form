@@ -1,9 +1,14 @@
 console.log("page loading...")
 
-var likeCount = 0;
-var likeSpan1 = document.querySelector("#post-1");
 
-function clicked() {
-    likeCount++;
-    likeSpan1.innerText = likeCount + " likes";
+var likes = [0,0,0];
+var spans = [
+    document.querySelector("#post-1"),
+    document.querySelector("#post-2"),
+    document.querySelector("#post-3")
+];
+
+function like(id) {
+    likes[id]++;
+    spans[id].innerHTML = likes [id] + "likes"
 }
