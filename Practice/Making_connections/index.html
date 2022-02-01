@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <script src="./script.js"></script>
     <header>
         <div class="nav">
             <ul class="nav-links">
@@ -63,21 +64,21 @@
                     <h4>Connection Requests</h4>
                 </div>
                 <div class="requestselect">
-                    <div class="nameYesNo">
+                    <div class="nameYesNo" id="request-1">
                         <img class="profilePics" src="./images/adrien-s.jpg" alt="adrien-s">
                         <div class="profileNames">
                             Adrien S
                         </div>
-                        <img class="profilePics" src="./icons/accept-circle.png" alt="accept">
-                        <img class="profilePics" src="./icons/close-circle.png" alt="decline">
+                        <img src="./icons/accept-circle.png" alt="accept" class = "profilePics" onclick='accept("#request-1")'>
+                        <img src="./icons/close-circle.png" alt="decline" class="profilePics" onclick= 'ignore("#request-1")'>
                     </div>
-                    <div class="nameYesNo">
+                    <div class="nameYesNo" id="request-2">
                         <img class="profilePics" src="./images/alayne-s.jpg" alt="alayne-s">
                         <div class="profileNames">
                             Alayne S
                         </div>
-                        <img class="profilePics" src="./icons/accept-circle.png" alt="accept">
-                        <img class="profilePics" src="./icons/close-circle.png" alt="decline">
+                        <img class="profilePics" src="./icons/accept-circle.png" alt="accept" onclick='accept("#request-2")'>
+                        <img class="profilePics" src="./icons/close-circle.png" alt="decline" onclick='accept("#request-2")'>
                     </div>
                 </div>
             </div>
@@ -119,6 +120,6 @@
         </div>
     </div>
 </body>
-<script src="./script.js"></script>
+
 
 </html>

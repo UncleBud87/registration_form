@@ -1,5 +1,10 @@
-function editProfile(newName) {
-    for (document.getElementById("#name").document.write("newName") {
-    return newName;
-    }
+
+function accept(id) {
+    var element = document.quearySelector(id);
+    element.remove();
+}
+
+function ignore(id) {
+    var element = document.quearySelector(id);
+    element.remove();
 }

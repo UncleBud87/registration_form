@@ -169,6 +169,7 @@ header {
     min-width: 20%;
     display: flex;
     flex-direction: column;
+    list-style: none;
 }
 
 .profileNames{
