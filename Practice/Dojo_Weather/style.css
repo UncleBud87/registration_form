@@ -10,20 +10,18 @@ header {
 }
 
 .container {
-    background-color: yellow;
+    /* background-color: yellow; */
     min-height: 50px;
     width: 70%;
     margin: 0 auto;
 }
 
-.text-white {
-    color: white;
+.whiteText {
+    color: whitesmoke;
 }
 
-/*utility classes end*/
-
-.menu-right {
-    background-color: blue;
+.cities-right {
+    /* background-color: blue; */
     min-height: 50px;
 }
 
@@ -34,16 +32,25 @@ header {
     gap: 1.5em;
 }
 
+.flex-even {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1.5em;
+}
+
 .flex-start {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    text-align: center;
     gap: 1.5em;
 }
 
-.carousel {
+.current-city {
     background-color: chartreuse;
     min-height: 100px;
+    border-bottom: 2px solid black;
 }
 
 .features {
@@ -51,7 +58,28 @@ background-color: burlywood;
 min-height: 100px;
 }
 
-.feature {
-    background-color: lightpink;
+.day {
+    background-color: slategrey;
     flex: 1;
+}
+
+.high {
+    color: red;
+}
+
+.low {
+    color: royalblue;
+}
+
+.day {
+    margin: 1.5rem;
+}
+
+.icon {
+    border-radius: 50%;
+}
+
+.temperature {
+    border: black;
+    font-size: 16pt;
 }
