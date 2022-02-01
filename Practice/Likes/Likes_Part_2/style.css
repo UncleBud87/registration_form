@@ -17,7 +17,17 @@
     display: flexbox;
 }
 
-.likes1{
+.userbox {
+    min-width: 100%;
+    display: inline-flex;
+    flex: 2;
+    justify-content: space-between;
+    margin: 1.5rem;
+    
+    align-items: center;
+}
+
+.likecounter{
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
@@ -32,8 +42,12 @@
     margin: 1.5rem;
 }
 
-.plus, .plus1, .plus2 {
+.likeButton{
     padding: 15px 32px;
     background-color: cadetblue;
+    font-size: 16pt;
+}
+
+#post-1 {
     font-size: 16pt;
 }

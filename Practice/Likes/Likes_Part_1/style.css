@@ -21,7 +21,7 @@
     align-items: center;
 }
 
-.likes1{
+.likecounter{
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
@@ -36,8 +36,12 @@
     margin: 1.5rem;
 }
 
-.counter-plus {
+.likeButton {
     padding: 15px 32px;
     background-color: cadetblue;
+    font-size: 16pt;
+}
+
+#post-1 {
     font-size: 16pt;
 }
