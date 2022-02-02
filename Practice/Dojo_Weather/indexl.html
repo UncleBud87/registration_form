@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,24 +8,26 @@
     <title>DojoWeather</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
     <header>
         <div class="container flexed">
             <h1 class="whiteText">DojoWeather</h1>
             <div class="cities-right flexed whiteText">
-                <h2>Burbank</h2>
-                <h2>Chicago</h2>
-                <h2>Dallas</h2>
+                <h2 onclick="alert('Burbanks gonna rain!')">Burbank</h2>
+                <h2 onclick="alert('Chicago is freakin cold!')">Chicago</h2>
+                <h2 onclick="alert('Cowboys SUCK!!')">Dallas</h2>
             </div>
-        </div></header>
+        </div>
+    </header>
     <div class="container">
         <div class="current-city flexed">
             <h1>San Jose</h1>
             <h3>
-                show temperature in 
-                <select class="temperature">
-                    <option value="farenheit" id="farenheit">F</option>
-                    <option value="celcius" id="celcius">C</option>
+                show temperature in
+                <select onchange="temp(this)" class="temperature">
+                    <option value="cel" id="cel">°C</option>
+                    <option value="far" id="far">°F</option>
                 </select>
             </h3>
         </div>
@@ -34,8 +37,8 @@
                 <img src="./assets/some_rain.png" alt="some_rain" class="icon">
                 <h3>some rain</h3>
                 <div class="temp flex-even">
-                    <h1 class="high">24</h1>
-                    <h1 class="low">18</h1>
+                    <h1 class="high" id="a">24°</h1>
+                    <h1 class="low" id="b">18°</h1>
                 </div>
             </div>
             <div class="day">
@@ -43,8 +46,8 @@
                 <img src="./assets/some_sun.png" alt="some_sun" class="icon">
                 <h3>some sun</h3>
                 <div class="temp flex-even">
-                    <h1 class="high">24</h1>
-                    <h1 class="low">18</h1>
+                    <h1 class="high" id="c">24°</h1>
+                    <h1 class="low" id="d">18°</h1>
                 </div>
             </div>
             <div class="day">
@@ -52,8 +55,8 @@
                 <img src="./assets/some_clouds.png" alt="some_clouds" class="icon">
                 <h3>some clouds</h3>
                 <div class="temp flex-even">
-                    <h1 class="high">21</h1>
-                    <h1 class="low">16</h1>
+                    <h1 class="high" id="e">21°</h1>
+                    <h1 class="low" id="f">16°</h1>
                 </div>
             </div>
             <div class="day">
@@ -61,13 +64,29 @@
                 <img src="./assets/some_sun.png" alt="some_sun" class="icon">
                 <h3>some sun</h3>
                 <div class="temp flex-even">
-                    <h1 class="high">21</h1>
-                    <h1 class="low">16</h1>
+                    <h1 class="high" id="g">21°</h1>
+                    <h1 class="low" id="h">16°</h1>
                 </div>
             </div>
         </div>
+
+        <div class="cookie-time flex-even" id="cookie">
+            <img src="./assets/cookie.png" alt="cookie" class="cookiePic">
+            <div class="body">
+                <h1>
+                    Stop! Cookie time
+                </h1>
+                <p>
+                    We use cookies (sadly not the edible ones) to personnalize content and ads, to provide social media
+                    features and to analyse our traffic. <a href="#">Read more....</a>
+                </p>
+            </div>
+            <button class="accept" onclick="accept()" id="accept">I Accept</button>
+        </div>
+
     </div>
     <script src="./script.js"></script>
-    
+
 </body>
+
 </html>
